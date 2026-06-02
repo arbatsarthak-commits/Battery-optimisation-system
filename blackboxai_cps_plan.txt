@@ -1,0 +1,12 @@
+Planned edits for app.py:
+1) Introduce synchronized cursor: st.session_state['cursor'] and window size.
+2) Change autorefresh to 2000ms.
+3) Use CSV-provided columns directly (power, soc, remaining_distance). Remove heuristic recomputations.
+4) Compute derived metrics (SOH proxy + faults) once and index by cursor.
+5) Ensure overview cards, gauges, charts, alerts, remaining distance, battery health, charging status all read from df.iloc[cursor].
+6) Replace charts with streaming window charts and make them visibly update.
+7) Add advanced gauges and battery animation.
+8) Add CPS system status panel, alert center with history and de-duplication.
+9) Update digital twin page to animate workflow step based on cursor.
+10) Add KPI summary and export features; optimize performance.
+

@@ -1,0 +1,10 @@
+streamlit>=1.40.0
+pandas>=2.2.0
+numpy>=1.26.0
+plotly>=5.20.0
+scikit-learn>=1.4.0
+matplotlib>=3.9.0
+joblib>=1.4.0
+streamlit-autorefresh>=0.2.0
+
+
